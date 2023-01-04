@@ -267,17 +267,17 @@ class InferInsightfaceDetectionRecognitionFactory(dataprocess.CTaskFactory):
         dataprocess.CTaskFactory.__init__(self)
         # Set process information as string here
         self.info.name = "infer_insightface_Detection_recognition"
-        self.info.shortDescription = "face detection, recognition trained models"
+        self.info.shortDescription = "face detection, recognition, alignment models"
         # relative path -> as displayed in Ikomia application process tree
         self.info.path = "Plugins/Python"
         self.info.version = "1.0.0"
         # self.info.iconPath = "your path to a specific icon"
-        self.info.authors = ""
-        self.info.article = "title of associated research article"
-        self.info.year = 2022
+        self.info.authors = "Jia Guo, Jiankang Deng, Xiang An, Jack Yu, Baris Gecer"
+        self.info.article = "Sample and Computation Redistribution for Efficient Face Detection"
+        self.info.year = 2021
         self.info.license = "MIT License"
         # Keywords used for search
-        self.info.keywords = "face detection, person detection,recognition"
+        self.info.keywords = "face detection, person detection,recognition, alignment"
 
     def create(self, param=None):
         # Create process object
